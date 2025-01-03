@@ -11,46 +11,116 @@
       "value": ""
     },
     "PREFIX": {
-      "description": "Enter your desired prefix for bot. You can set `all | . | .!*`",
+      "description": "Bot command prefix (e.g., '.', '#').",
       "value": "."
     },
-    "AUTO_REACT": {
-      "description": "Set true to auto-react to messages.",
-      "value": "false",
-      "required": false
-    },
-    "WELCOME": {
-      "description": "Put 'false' or 'true' to enable or disable WELCOME.",
-      "value": "false",
-      "required": false
-    },
-    "AUTO_VIEW_STATUS": {
-      "description": "Auto-view saved WhatsApp statuses.",
-      "value": "true",
-      "required": false
-    },
-    "CHATBOT": {
-      "description": "Set to true if you want your bot to autoreply messages.",
-      "value": "false",
-      "required": false
-    },
-    "AUTO_READ_MESSAGES": {
-      "description": "Set to true if you want the bot to read all messages.",
-      "value": "false",
-      "required": false
-    },
     "OWNER_NUMBER": {
-      "description": "The phone number of the owner in international format without +.",
+      "description": "Owner's phone number in international format without +.",
       "value": "2349047943737"
     },
-    "PUBLIC": {
-      "description": "Worktype of your bot. Use public or private. If it is private, then only the bot number can use it. If public, then everyone can use it.",
-      "value": "public"
+    "OWNER_NAME": {
+      "description": "Owner's name.",
+      "value": "SEPTORCH"
+    },
+    "BOT_NAME": {
+      "description": "Bot name.",
+      "value": "𝐒𝐄𝐏𝐓𝐀𝐍𝐈𝐓𝐀"
+    },
+    "PACK_NAME": {
+      "description": "Sticker pack name.",
+      "value": "𝐒𝐄𝐏𝐓𝐀𝐍𝐈𝐓𝐀"
     },
     "AUTHOR": {
-      "description": "Put Sticker Pack Author_Name.",
-      "value": "𝐒𝐄𝐏𝐓𝐎𝐑𝐂𝐇",
-      "required": false
+      "description": "Author of the sticker pack.",
+      "value": "𝐒𝐄𝐏𝐓𝐎𝐑𝐂𝐇"
+    },
+    "CHANNEL_NAME": {
+      "description": "Channel name.",
+      "value": "𝐒𝐄𝐏𝐓𝐎𝐑𝐂𝐇"
+    },
+    "CHANNEL_JID": {
+      "description": "Channel JID.",
+      "value": "120363315231436175@newsletter"
+    },
+    "AUTO_TYPING": {
+      "description": "Enable auto-typing feature.",
+      "value": "true"
+    },
+    "AUTO_RECORD": {
+      "description": "Enable auto-recording feature.",
+      "value": "false"
+    },
+    "AUTO_VIEW_STATUS": {
+      "description": "Enable automatic viewing of WhatsApp statuses.",
+      "value": "true"
+    },
+    "AUTO_LIKE_EMOJI": {
+      "description": "Emoji for auto-like reactions.",
+      "value": "💚"
+    },
+    "LEVELUP": {
+      "description": "Enable leveling up system.",
+      "value": "true"
+    },
+    "ANTIVIEWONCE": {
+      "description": "Enable anti-view-once protection.",
+      "value": "true"
+    },
+    "PUBLIC": {
+      "description": "Work mode of the bot (true = public, false = private).",
+      "value": "true"
+    },
+    "SUDO_USERS": {
+      "description": "List of Sudo users (comma-separated phone numbers).",
+      "value": "2349047943737"
+    },
+    "ANTIDELETE": {
+      "description": "Enable anti-delete message feature.",
+      "value": "true"
+    },
+    "AUTO_BIO": {
+      "description": "Enable auto bio updates.",
+      "value": "false"
+    },
+    "AVAILABLE": {
+      "description": "Bot availability status (true = available).",
+      "value": "true"
+    },
+    "UNAVAILABLE": {
+      "description": "Bot unavailability status (true = unavailable).",
+      "value": "false"
+    },
+    "AUTO_REACT": {
+      "description": "Enable auto-reactions to messages.",
+      "value": "false"
+    },
+    "WELCOME": {
+      "description": "Enable welcome messages for new users.",
+      "value": "false"
+    },
+    "CHATBOT": {
+      "description": "Enable chatbot auto-replies.",
+      "value": "false"
+    },
+    "AUTO_READ_MESSAGES": {
+      "description": "Enable auto-reading of messages.",
+      "value": "false"
+    },
+    "ANTICALL": {
+      "description": "Enable anti-call protection.",
+      "value": "true"
+    },
+    "ANTILINK": {
+      "description": "Enable anti-link feature.",
+      "value": "true"
+    },
+    "ANTILINK_KICK": {
+      "description": "Enable kicking users for posting links.",
+      "value": "true"
+    },
+    "ANTILINK_WARN": {
+      "description": "Enable warnings for posting links.",
+      "value": "false"
     }
   },
   "buildpacks": [
